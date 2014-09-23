@@ -26,4 +26,5 @@ end
 theta
 subplot(1,2,2);
 plot([0:5],jv);
+ans = g([1,20,80]*theta)
 
