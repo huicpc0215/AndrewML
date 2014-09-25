@@ -24,6 +24,8 @@ subplot(1,3,1);
 plot(basex,y,'bo'); hold on;
 plot(base,yc,'r--');
 legend('origin point','prediction');
+theta
+norm(theta)
 
 %figure(3);
 lambda = 1;
@@ -33,6 +35,8 @@ yc=xc*theta;
 plot(basex,y,'bo'); hold on;
 plot(base,yc,'r--');
 legend('origin point','prediction');
+theta
+norm(theta)
 
 %figure(4);
 subplot(1,3,3);
@@ -42,5 +46,7 @@ yc=xc*theta;
 plot(basex,y,'bo');hold on;
 plot(base,yc,'r--');
 legend('origin point','prediction');
+theta
+norm(theta)
 figure(5);
 plot(basex,y,'o');
